@@ -31,7 +31,7 @@ echo '' >> .profile
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> .profile
 echo 'eval "$(rbenv init -)"' >> .profile
 echo '' >> .profile
-. .profile
+. ~/.profile
 
 rbenv install 2.1.1
 rbenv global 2.1.1
