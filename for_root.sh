@@ -1,6 +1,6 @@
 #!/bin/sh
 sudo apt-get install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev  -y
-sudo apt-get install libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion -y
+sudo apt-get install libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion autojump -y
 sudo apt-get install mysql-client screen mysql-server git-core -y
 sudo apt-get install libreadline-dev libssl-dev libssl -y
 sudo apt-get install openjdk-7-jre-headless -y
@@ -21,7 +21,7 @@ curl -L http://install.ohmyz.sh | sh
 sudo /usr/sbin/update-rc.d -f nginx defaults
 sudo /usr/sbin/update-rc.d -f mysql defaults
 sudo /usr/sbin/update-rc.d -f memcached defaults
-sudo /usr/sbin/update-rc.d -f redis defaults
+sudo /usr/sbin/update-rc.d -f redis-server defaults
 sudo /usr/sbin/update-rc.d -f php5-fpm defaults
 
 
